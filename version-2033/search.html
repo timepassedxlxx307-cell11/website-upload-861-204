@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>搜索-最新国产影视免费高清播_在线电影电视剧库</title>
+    <meta name="description" content="最新国产影视免费高清播放，拥有在线电影与电视剧库。资源以国产为主，涵盖新片、经典及热播剧，提供流畅的观看体验。">
+    <meta name="keywords" content="最新国产影视免费高清播_在线电影电视剧库,国产,视频,免费,在线观看,高清,影视大全,搜索,筛选">
+    <link rel="stylesheet" href="./assets/original.css">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<nav class="site-nav glass-effect">
+    <div class="section-container nav-inner">
+        <a class="brand" href="./index.html" aria-label="国产影视库">
+            <span class="brand-icon">▶</span>
+            <span class="brand-name gradient-text">国产影视库</span>
+        </a>
+        <div class="nav-links">
+            <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./all-movies.html">全部影片</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./rankings.html">排行榜</a>
+        </div>
+        <form class="nav-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片、类型、地区" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="菜单" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-panel">
+        <form class="mobile-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./all-movies.html">全部影片</a><a class="mobile-link" href="./categories.html">分类</a><a class="mobile-link" href="./rankings.html">排行榜</a>
+    </div>
+</nav>
+<main>
+    <section class="page-hero">
+        <div class="section-container">
+            <div class="page-hero-card">
+                <h1>搜索影片</h1>
+                <p>输入片名、题材、地区、年份或标签，从片库中快速找到想看的作品。</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-block">
+        <div class="section-container">
+            <div class="search-panel">
+                <input id="search-input" type="search" placeholder="搜索片名、类型、地区或标签" autocomplete="off">
+                <select id="search-type"><option value="">全部类型</option><option value="TV Series">TV Series</option><option value="TV 动画">TV 动画</option><option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="其他">其他</option><option value="剧情">剧情</option><option value="剧集">剧集</option><option value="剧集 古装/爱情">剧集 古装/爱情</option><option value="剧集 悬疑/奇幻">剧集 悬疑/奇幻</option><option value="剧集/动画">剧集/动画</option><option value="剧集/真人秀改编">剧集/真人秀改编</option><option value="剧集/综艺衍生">剧集/综艺衍生</option><option value="剧集/迷你剧">剧集/迷你剧</option><option value="剧集/限定剧">剧集/限定剧</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="动画,剧集">动画,剧集</option><option value="动画/电影">动画/电影</option><option value="动画OVA">动画OVA</option><option value="动画剧集">动画剧集</option><option value="动画片">动画片</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="戏曲电影">戏曲电影</option><option value="晚会">晚会</option><option value="现场影像">现场影像</option><option value="电影">电影</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 喜剧/恐怖">电影 喜剧/恐怖</option><option value="电影 恐怖,奇幻">电影 恐怖,奇幻</option><option value="电影(动画)">电影(动画)</option><option value="电影,动画">电影,动画</option><option value="电影/剧集">电影/剧集</option><option value="电影/动画">电影/动画</option><option value="电影/电视电影">电影/电视电影</option><option value="电影/黑色喜剧">电影/黑色喜剧</option><option value="电视剧">电视剧</option><option value="电视剧 (季播剧)">电视剧 (季播剧)</option><option value="电视剧(24集)">电视剧(24集)</option><option value="电视剧(季)">电视剧(季)</option><option value="电视剧集">电视剧集</option><option value="电视电影">电视电影</option><option value="短剧">短剧</option><option value="纪录片">纪录片</option><option value="纪录片/系列片">纪录片/系列片</option><option value="纪录片/警务纪实">纪录片/警务纪实</option><option value="纪录片/音乐">纪录片/音乐</option><option value="综艺">综艺</option><option value="综艺/演唱会">综艺/演唱会</option><option value="综艺/电影">综艺/电影</option><option value="综艺/真人秀">综艺/真人秀</option><option value="综艺/舞台实录">综艺/舞台实录</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="美剧">美剧</option><option value="迷你剧">迷你剧</option></select>
+                <select id="search-region"><option value="">全部地区</option><option value="不丹/中国大陆">不丹/中国大陆</option><option value="东南亚">东南亚</option><option value="东南亚 (柬埔寨/老挝)">东南亚 (柬埔寨/老挝)</option><option value="中国">中国</option><option value="中国内地">中国内地</option><option value="中国台湾">中国台湾</option><option value="中国台湾,日本">中国台湾,日本</option><option value="中国大陆">中国大陆</option><option value="中国大陆,奥地利">中国大陆,奥地利</option><option value="中国大陆/意大利">中国大陆/意大利</option><option value="中国大陆/缅甸">中国大陆/缅甸</option><option value="中国大陆/苏联">中国大陆/苏联</option><option value="中国大陆/蒙古">中国大陆/蒙古</option><option value="中国香港">中国香港</option><option value="中国香港,中国大陆">中国香港,中国大陆</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港/台湾">中国香港/台湾</option><option value="中国香港/德国">中国香港/德国</option><option value="中国香港/法国">中国香港/法国</option><option value="中国香港/泰国">中国香港/泰国</option><option value="中国香港/澳门">中国香港/澳门</option><option value="丹麦">丹麦</option><option value="丹麦/法国">丹麦/法国</option><option value="乌克兰">乌克兰</option><option value="以色列">以色列</option><option value="以色列,巴勒斯坦">以色列,巴勒斯坦</option><option value="伊朗">伊朗</option><option value="俄罗斯">俄罗斯</option><option value="俄罗斯,法国">俄罗斯,法国</option><option value="俄罗斯/中国合拍">俄罗斯/中国合拍</option><option value="俄罗斯/美国">俄罗斯/美国</option><option value="加拿大">加拿大</option><option value="加拿大/挪威">加拿大/挪威</option><option value="匈牙利">匈牙利</option><option value="北欧 (挪威/瑞典)">北欧 (挪威/瑞典)</option><option value="华语">华语</option><option value="南非">南非</option><option value="南非/美国">南非/美国</option><option value="印度">印度</option><option value="印度尼西亚">印度尼西亚</option><option value="台湾">台湾</option><option value="哥伦比亚/美国">哥伦比亚/美国</option><option value="土耳其">土耳其</option><option value="土耳其/法国">土耳其/法国</option><option value="埃及">埃及</option><option value="墨西哥">墨西哥</option><option value="墨西哥/美国">墨西哥/美国</option><option value="多国(沙特/印尼/埃及)">多国(沙特/印尼/埃及)</option><option value="奥地利">奥地利</option><option value="巴西">巴西</option><option value="巴西/法国">巴西/法国</option><option value="巴西/美国">巴西/美国</option><option value="巴西/英国">巴西/英国</option><option value="德国">德国</option><option value="德国/比利时">德国/比利时</option><option value="德国/波兰">德国/波兰</option><option value="意大利">意大利</option><option value="意大利/梵蒂冈">意大利/梵蒂冈</option><option value="意大利/法国">意大利/法国</option><option value="挪威">挪威</option><option value="挪威/德国">挪威/德国</option><option value="挪威/瑞典">挪威/瑞典</option><option value="挪威/英国">挪威/英国</option><option value="捷克">捷克</option><option value="捷克/英国">捷克/英国</option><option value="新加坡">新加坡</option><option value="新加坡,马来西亚">新加坡,马来西亚</option><option value="新加坡/马来西亚">新加坡/马来西亚</option><option value="新西兰">新西兰</option><option value="日本">日本</option><option value="日本/中国">日本/中国</option><option value="日本/加拿大">日本/加拿大</option><option value="日本/意大利">日本/意大利</option><option value="日本/韩国">日本/韩国</option><option value="智利">智利</option><option value="欧洲多国">欧洲多国</option><option value="比利时">比利时</option><option value="比利时/法国">比利时/法国</option><option value="法国">法国</option><option value="法国,塞内加尔">法国,塞内加尔</option></select>
+            </div>
+            <p class="search-results-info" id="search-info"></p>
+            <div class="movie-grid dense" id="search-results"></div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="section-container footer-grid">
+        <div>
+            <a class="brand footer-brand" href="./index.html">
+                <span class="brand-icon">▶</span>
+                <span class="brand-name gradient-text">国产影视库</span>
+            </a>
+            <p>最新国产影视免费高清播放，拥有在线电影与电视剧库。资源以国产为主，涵盖新片、经典及热播剧，提供流畅的观看体验。</p>
+        </div>
+        <div class="footer-links">
+            <a href="./index.html">首页</a>
+            <a href="./all-movies.html">全部影片</a>
+            <a href="./categories.html">分类频道</a>
+            <a href="./rankings.html">排行榜</a>
+        </div>
+        <div class="footer-links footer-categories">
+            <a href="./category-featured.html">热播精选</a><a href="./category-domestic.html">国产剧场</a><a href="./category-movies.html">在线电影</a><a href="./category-series.html">电视剧库</a><a href="./category-suspense.html">悬疑惊悚</a><a href="./category-action.html">动作冒险</a><a href="./category-romance.html">爱情喜剧</a><a href="./category-family.html">家庭剧情</a>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 国产影视库</div>
+</footer>
+<script src="./assets/site.js" defer></script>
+<script src="./assets/movie-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
